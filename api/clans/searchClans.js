@@ -2,7 +2,7 @@
 
 async function searchClans(...args){
     
-    if(typeof args[0] !== "object"){
+    if (typeof args[0] !== "object"){
         throw new Error("Input needs to be an object with parameters!");
     }
 
