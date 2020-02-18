@@ -10,6 +10,7 @@ const api = require('./lib/coc-api-nodejs');
         
         await api.setCredentials("my-developer-email", "my-developer-password");
 
+        // Only one of the parameters below are required
         let clans = await api.clans.searchClans({
             Name: "best-clan-ever",
             warFrequency: "alot",
