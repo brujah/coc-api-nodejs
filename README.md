@@ -1,7 +1,8 @@
 # coc-api-nodejs
 A NodeJS wrapper for the Clash of Clans API
 
-```const api = require('./lib/coc-api-nodejs');
+```
+const api = require('./lib/coc-api-nodejs');
 
 (async () => {
     
@@ -28,4 +29,5 @@ A NodeJS wrapper for the Clash of Clans API
     }
     
     
-})()```
+})()
+```
