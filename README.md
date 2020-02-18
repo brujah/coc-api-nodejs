@@ -24,6 +24,13 @@ const api = require('./lib/coc-api-nodejs');
             labelIds: ""
         });
 
+        let players = await api.clans.getClanMembers({
+            clanTag: "#123abc", // Required parameter
+            limit: 10,
+            after: "",
+            before: ""
+        })
+
     } catch (err) {
         console.log(err);
     }
