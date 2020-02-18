@@ -4,7 +4,7 @@ const api = require('./lib/coc-api-nodejs');
     
     try {
         
-        await api.setCredentials("andreAS", "korv");
+        await api.setCredentials("my-developer-email", "my-developer-password");
 
         await api.clans.searchClans();
 
