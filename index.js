@@ -8,7 +8,7 @@ const api = require('./lib/coc-api-nodejs');
 
         // Only one of the parameters below are required
         let clans = await api.clans.searchClans({
-            Name: "best-clan-ever",
+            Name: "best clan ever",
             warFrequency: "alot",
             locationId: 666,
             minMembers: 1,
@@ -29,7 +29,9 @@ const api = require('./lib/coc-api-nodejs');
         })
 
     } catch (err) {
-        console.log(err);
+        console.log(err.response.data);
+        console.log(err.response.status);
+        console.log(err.response.headers);
     }
     
     
