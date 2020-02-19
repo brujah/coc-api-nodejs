@@ -1,13 +1,13 @@
 {
-  "name": "ny-kod-bra-byggd",
+  "name": "coc-api-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A NodeJS wrapper for the Clash of Clans API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andreas Ellsen",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2"
   }
